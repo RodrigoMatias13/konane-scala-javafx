@@ -1,5 +1,3 @@
-# konane-scala-javafx
-
 # Kōnane - Jogo Multiparadigma (Scala 3 & JavaFX) ♟️
 
 Este projeto consiste na implementação do histórico jogo de tabuleiro havaiano **Kōnane**[cite: 4]. O desenvolvimento foi estruturado seguindo uma arquitetura clássica de camadas, dividindo a lógica de negócio e a camada de apresentação através de diferentes paradigmas de programação[cite: 4].

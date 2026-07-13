@@ -69,4 +69,4 @@ sbt run
 ```
 
 ## 👤 Autor
-*Rodrigo Matias
+* Rodrigo Matias

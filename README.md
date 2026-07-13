@@ -37,7 +37,8 @@ Duas interfaces distintas que comunicam de forma desacoplada com a camada de neg
 ## 🛠️ Tipos de Dados Obrigatórios
 
 O motor do jogo foi construído estritamente sob a seguinte modelação de tipos em Scala 3[cite: 4]:
-scala
+
+```scala
 type Coord2D = (Int, Int) // (linha, coluna)
 type Board = ParMap[Coord2D, Stone]
 
@@ -45,19 +46,27 @@ enum Stone:
   case Black, White
 ```[cite: 4]
 ```
----
 
 ## 🚀 Como Executar
 
 ### Pré-requisitos
+
 *   Java JDK 17 (ou superior)
 *   SBT (Scala Build Tool)
 
 ### 1. Compilar o Projeto
+
 Na raiz do projeto (onde se encontra o ficheiro `build.sbt`), executa:
+
 ```bash
 sbt compile
 ```
 ### 2. Executar a Aplicação
+
 Para iniciar a aplicação (onde poderás escolher jogar via TUI ou GUI):
+```bash
 sbt run
+```
+
+## 👤 Autor
+*Rodrigo Matias
